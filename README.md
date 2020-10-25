@@ -21,14 +21,14 @@ You can create a public repository on your GitHub account and send the link to u
 
 # How to use
 
-Clone the project: https://github.com/jhonattasantos/StarCorp
-Enter the directory StarCorp
-Run composer install
-Start project with 
+* Clone the project: https://github.com/jhonattasantos/StarCorp
+* Enter the directory StarCorp
+* Run composer install
+* Start project with 
 ```
 php -S localhost:8080
 ```
-Open the URL http://localhost:8080/ in your browser 
+* Open the URL http://localhost:8080/ in your browser 
 By default the limit value is 100. Feel free to test with other limits
 
 ![alt text](https://github.com/jhonattasantos/StarCorp/blob/master/img/example.png)
