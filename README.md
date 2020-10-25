@@ -32,3 +32,11 @@ php -S localhost:8080
 By default the limit value is 100. Feel free to test with other limits
 
 ![alt text](https://github.com/jhonattasantos/StarCorp/blob/master/img/example.png)
+
+# Tests execution
+1. Install the dependencies if you haven't done it previously
+1. Execute PHPUnit
+
+```
+vendor/phpunit/phpunit/phpunit tests/
+```
