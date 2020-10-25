@@ -31,4 +31,4 @@ php -S localhost:8080
 Open the URL http://localhost:8080/ in your browser 
 By default the limit value is 100. Feel free to test with other limits
 
-![alt text](https://github.com/jhonattasantos/StarCorp/img/example.png)
+![alt text](https://github.com/jhonattasantos/StarCorp/blob/master/img/example.png)
