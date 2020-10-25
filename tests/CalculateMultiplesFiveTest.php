@@ -18,4 +18,16 @@ class CalculateMultiplesFiveTest extends TestCase
         
         $this->assertEquals(3, count($found));     
     }
+
+    /** @test */
+    public function must_return_zero_IT() 
+    {
+        $calc = new CalculateMultiplesFive("IT",range(1,2));  
+
+        $found = array_filter($calc->handler(), function($item){
+            return $item == "IT";
+        });
+        
+        $this->assertEquals(0, count($found));     
+    }
 }
